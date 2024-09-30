@@ -12,9 +12,9 @@ class Transaction extends Model
     protected $fillable = [
         'user_id',
         'date',
+        'month',
         'amount',
-        'from',
-        'total',
+        'from'
     ];
 
     // Define the relationship with the User model

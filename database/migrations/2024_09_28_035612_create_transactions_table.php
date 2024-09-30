@@ -20,7 +20,6 @@ return new class extends Migration
             $table->string('month')->default(date('m')); // Adding the 'month' field
             $table->decimal('amount', 15, 2);
             $table->string('from');
-            $table->decimal('total', 15, 2)->nullable();
             $table->timestamps();
         });
     }
